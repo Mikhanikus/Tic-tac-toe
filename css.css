@@ -1,0 +1,61 @@
+#page {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+body {
+    background-image: url("star-2539245_1280.jpg") ;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#general {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#players {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#game {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    width: 400px;
+
+
+}
+
+.cell {
+    border: 1px black solid;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+    background-color: white;
+}
+
+p {
+    font-size: 30px;
+}
+#start {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: mediumspringgreen;
+
+}
